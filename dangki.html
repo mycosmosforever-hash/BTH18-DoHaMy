@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {padding: 10px; border: 2px solid blue; margin-left: 30%; margin-right: 30%; background-color: lightpink;}
+td {padding-top: 0.5em; padding-bottom: 0.5em;}
+</style>
+</head>
+<body>
+<table>
+<form action="submit.php" method="post">
+<tr>
+<td colspan="2" align="center"><h3>ĐĂNG KÍ THÀNH VIÊN CLB NGOẠI KHÓA<br>TRUỜNG THPT NGHUYỄN BÌNH KHIÊM</h3></td>
+</tr>
+<tr>
+<td><label>Họ tên:</label></td>
+<td><input type="text" id="hoten" name="hoten"></td>
+</tr>
+<tr>
+<td><label>Email:</label></td>
+<td><input type="email" id="email" name="email"></td>
+</tr>
+<tr>
+<td><label>Ngày sinh:</label></td>
+<td><input type="date" id="ngaysinh" name="ngaysinh"></td>
+</tr>
+<tr>
+<td><label>Địa chỉ: </label></td>
+<td><textarea id="diachi" name="diachi" rows=5 cols=20></textarea></td>
+</tr>
+<tr>
+<td><label>Giới tính: </label></td>
+<td>
+<input type="radio" id="nam" name="gioitinh"><label>Nam</label><br>
+<input type="radio" id="nu" name="gioitinh"><label>Nữ</label>
+</td>
+</tr>
+<td><label>Sở thích: </label></td>
+<td>
+<input type="radio" id="covua" name="sothich"><label>Cờ vua</label><br>
+<input type="radio" id="dulich" name="sothich"><label>Du lịch</label><br>
+<input type="radio" id="ngauan" name="sothich"><label>Nấu ăn</label><br>
+  <input type="radio" name="sothich" value="khac">Khác</label><br>
+  <textarea name="khac" id="khac" rows="1" cols="15"></textarea>
+</td>
+</td>
+</tr>
+<tr>
+<td><label>Hồ sơ đính kèm: </label></td><br>
+<td>
+<input type="file">
+</td>
+</tr>
+<tr>
+<td>
+<label for="class">Đăng kí CLB:</label></td>
+<td>
+<select id="class" name="class">
+<option value="Bóng đá">Bóng đá</option>
+<option value="Bóng đá">Bóng rổ</option>
+<option value="Bóng đá">Cờ vua</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;">
+<input type="submit" value="Đăng kí">
+</td>
+</tr>
+</from>
