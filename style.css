@@ -1,5 +1,5 @@
 .banner {
-background: url("img/img-0.jpg") no-repeat center center;
+background: url("img-0.jpg") no-repeat center center;
 background-size: cover;
 padding-top: 60px;
 padding-bottom: 60px;
@@ -58,4 +58,5 @@ footer {
 .cell {
     text-align: justify;
     padding: 1.5em;
+
 }
